@@ -11,12 +11,13 @@ const Footer = () => {
         <div className="footer-section-one">
             <div className="footer-logo-container">
                 <img src={Logo} alt="" />
-                <div className="footer-icons">
-                    <BsTwitter />
-                    {/* <SiLinkedIn /> */}
-                    <BsYoutube />
-                    <FaFacebookF />
-                </div>
+            </div>
+            <div className="footer-icons">
+                <BsTwitter />
+                {/* <SiLinkedIn /> */}
+                <BsYoutube />
+                <FaFacebookF />
+            </div>
             </div>
             <div className="footer-section-two">
                 <div className="footer-section-columns">
@@ -38,7 +39,6 @@ const Footer = () => {
                     <span>Privacy Policy</span>
                 </div>
             </div>
-        </div>
     </div>
   )
 }
