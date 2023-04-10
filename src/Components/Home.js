@@ -17,12 +17,17 @@ const Home = () => {
               Your Favourite Food Delivered Hot & Fresh
             </h1>
             <p className="primary-text">
-              Healthy switcher chefs do all the prep work, like peeling, chopping & marinating so you can cook fresh food.
+              Healthy switcher chefs do all the prep work, like peeling, chopping 
+              & marinating so you can cook fresh food.
             </p>
             <button className="secondary-button">
               Order Now <FiArrowRight />
             </button>
           </div>
+          <div className="home-image-container">
+            <img src={BannerImage} alt="Example image of a prepared meal" />
+          </div>
+
         </div>
     </div>
   )
